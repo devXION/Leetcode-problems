@@ -1,4 +1,5 @@
-def longestCommonPrefix(self, strs: List[str]) -> str:
+import pytest
+def longestCommonPrefix( strs: list[str]) -> str:
     if len(strs) == 0:
         return ""
     s = strs[0]
@@ -8,3 +9,6 @@ def longestCommonPrefix(self, strs: List[str]) -> str:
             if len(s) == 0:
                 return ""
     return s
+def tester():
+    longestCommonPrefix(["flower","flow","flight"]) == "fl"
+
