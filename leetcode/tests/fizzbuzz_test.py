@@ -1,3 +1,0 @@
-@pytest.mark.parametrize("number,output", [(3,["1","2","Fizz"]),(5,["1","2","Fizz","4","Buzz"])])
-def tester(number,output):
-    fizzBuzz(number) == output
