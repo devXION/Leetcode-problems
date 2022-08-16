@@ -9,6 +9,4 @@ def longestCommonPrefix( strs: list[str]) -> str:
             if len(s) == 0:
                 return ""
     return s
-def tester():
-    longestCommonPrefix(["flower","flow","flight"]) == "fl"
 

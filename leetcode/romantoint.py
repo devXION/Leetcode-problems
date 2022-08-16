@@ -1,3 +1,4 @@
+import pytest
 def romanToInt(s: str) -> int:
     romand = {
 
@@ -27,5 +28,6 @@ def romanToInt(s: str) -> int:
     return res
 
 
-def tester():
-    romanToInt('LVIII') == 58
+@pytest.mark.parametrize('ins,outs',[('III', 3),('LVIII',58),('MCMXIV',1994)])
+def tester(ins,outs):
+    ins == outs

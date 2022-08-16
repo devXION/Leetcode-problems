@@ -1,3 +1,4 @@
+import pytest
 def intToRoman(num: int) -> str:
     r = ''
     roman = {
@@ -20,5 +21,6 @@ def intToRoman(num: int) -> str:
             r += v
             num -= roman[v]
     return r
-def tester():
-    intToRoman(14) == 'XIV'
+@pytest.mark.parametrize('ins,outs',[('III', 3),('LVIII',58),('MCMXIV',1994)])
+def tester(ins,outs):
+    ins == outs
