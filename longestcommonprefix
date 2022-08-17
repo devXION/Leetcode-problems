@@ -1,8 +1,0 @@
-class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
-      prefix = ''
-      for cmbn in zip(*strs):
-        if len(set(cmbn)) > 1:
-          break
-        prefix += cmbn[0]
-      return prefix
