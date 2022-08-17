@@ -11,4 +11,4 @@ from singlenumber import singlenumber
 from smallerthancurrent import smallerthancurrent
 from thirdmaximum import thirdmaximum
 from TwoSum import TwoSum
-from valid-parentheses import valid-parentheses
+from valid_parentheses import valid_parentheses
