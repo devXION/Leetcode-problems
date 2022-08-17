@@ -1,4 +1,3 @@
-import pytest
 def romanToInt(s: str) -> int:
     romand = {
 
@@ -26,5 +25,3 @@ def romanToInt(s: str) -> int:
 
     res += romand[s[-1]]
     return res
-
-
