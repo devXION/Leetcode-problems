@@ -4,4 +4,4 @@ def is_power_of_two(number: int) -> bool:
             return False
         number /= 2
     return True
-    pow == state
+    
