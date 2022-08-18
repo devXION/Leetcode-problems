@@ -1,4 +1,4 @@
-import pytest
+
 def fizzBuzz(n: int) -> list[str]:
     result = []
     for i in range(1, n + 1):
