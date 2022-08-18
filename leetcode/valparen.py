@@ -1,4 +1,3 @@
-import pytest
 def isValid(brackets: str) -> bool:
     if len(brackets) % 2 != 0:
         return False
