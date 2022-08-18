@@ -25,7 +25,3 @@ def romanToInt(s: str) -> int:
 
     res += romand[s[-1]]
     return res
-
-
-def tester():
-    romanToInt('LVIII') == 58

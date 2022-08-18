@@ -29,5 +29,3 @@ def isValid(brackets: str) -> bool:
     else:
         return False
 
-def tester():
-    isValid("()") == True

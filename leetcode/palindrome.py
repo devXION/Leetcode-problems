@@ -4,5 +4,4 @@ def isPalindrome(
         return True
     else:
         return False
-def tester():
-    isPalindrome(121) == True
+    number == condition

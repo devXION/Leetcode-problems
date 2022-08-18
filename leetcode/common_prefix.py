@@ -1,4 +1,4 @@
-import pytest
+
 def longestCommonPrefix( strs: list[str]) -> str:
     if len(strs) == 0:
         return ""
@@ -9,6 +9,4 @@ def longestCommonPrefix( strs: list[str]) -> str:
             if len(s) == 0:
                 return ""
     return s
-def tester():
-    longestCommonPrefix(["flower","flow","flight"]) == "fl"
 

@@ -1,3 +1,4 @@
+
 def fizzBuzz(n: int) -> list[str]:
     result = []
     for i in range(1, n + 1):
@@ -11,5 +12,4 @@ def fizzBuzz(n: int) -> list[str]:
             result.append(str(i))
     return result
 
-def tester():
-    fizzBuzz(3) == ["1","2","Fizz"]
+

@@ -1,7 +1,3 @@
-import pytest
 def lengthOfLastWord(s: str) -> int:
     lastword = s.split()
     return len(lastword[-1])
-
-def tester():
-    lengthOfLastWord('luffy is still joyboy') == 6
