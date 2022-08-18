@@ -10,7 +10,7 @@ LONG_DESCRIPTION = 'basic but longer'
 
 # Setting up
 setup(
-    name="Leetcode_python_package",
+    name="leetcode",
     version=VERSION,
     author="Nensha",
     author_email="<jozek25036@gmail.com>",
